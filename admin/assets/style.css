@@ -9,6 +9,64 @@ html {
     padding :0;
 }
 
+.btn {
+    border: none;
+}
+
+.text-title{
+    color: #369CD7;
+}
+
+.btn-color {
+    background: #369CD7;
+    color: #fff;
+    border: 1px solid #369CD7;
+}
+
+.btn-color:hover {
+    color: #369CD7;
+    border: 1px solid #369CD7;
+    background-color: #fff;
+}
+
+.btn-danger {
+    background-color: #e66060;
+}
+.btn-success {
+    background-color: #61d488;
+}
+.btn-success:hover, .btn-success:active {
+    color: #fff;
+    background-color: #47be6f;
+    border-color: #47be6f;
+}
+
+.btn-danger:hover, .btn-danger:active {
+    color: #fff;
+    background-color: #ce4747;
+    border-color: #ce4747;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #47be6f;
+    border-color: #47be6f;
+    box-shadow: 0 0 0 .25rem #47be6f50;
+}
+.btn-danger:focus {
+    color: #fff;
+    background-color: #ce4747;
+    border-color: #ce4747;
+    box-shadow: 0 0 0 .25rem #ce47475d;
+}
+
+.change-state {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #000;
+    border-bottom: none;
+}
+
 .grid-card {
     display: flex;
     flex-wrap: wrap;
